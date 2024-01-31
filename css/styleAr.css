@@ -1,0 +1,24 @@
+.carousel-inner .home-text{
+    right: 5%;
+}
+
+.sec-title{
+    padding-bottom: 5px;
+}
+
+.fa-phone{
+    transform: rotate(-90deg);
+}
+
+a:hover .fa-phone{
+  animation: ring 0.2s infinite;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(-120deg);
+  }
+}
