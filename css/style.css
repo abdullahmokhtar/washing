@@ -126,6 +126,24 @@ h3 {
 }
 
 /* contact section */
+#contact {
+  background-color: #40a2e3;
+  color: #fff;
+}
+
+#contact .sec-title {
+  border-bottom-color: #fff;
+}
+
+.contact-text p {
+  font-weight: 500;
+}
+
+.contact-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
 textarea {
   resize: none;
 }
