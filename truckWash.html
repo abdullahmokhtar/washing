@@ -1,11 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/details.css" />
+    <script src="js/all.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Truck Wash</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/images/logo.png" class="logo" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#branches">Our Branches</a>
+              </li>
+            </ul>
+            <a href="index.html"
+              ><img
+                src="assets/images/eng.png"
+                class="me-3 lang-flag"
+                alt="english language"
+            /></a>
+            <a href="GER/indexGER.html"
+              ><img
+                src="assets/images/germany.png"
+                class="me-3 lang-flag"
+                alt="german language"
+            /></a>
+            <a href="FR/indexFR.html"
+              ><img
+                src="assets/images/fr.png"
+                class="me-3 lang-flag"
+                alt="france language"
+            /></a>
+            <a href="spain/indexSp.html"
+              ><img
+                src="assets/images/Spain_flag.png"
+                class="me-3 lang-flag"
+                alt="spanish language"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row align-items-center py-5">
+          <div class="col-md-4">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/car-wash-01.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-02.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-03.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-04.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-05.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-06.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/car-wash-07.jpeg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-1 fw-bold">Car Wash</h2>
+            <h3>Benfits:</h3>
+            <ul class="d-flex p-0 flex-wrap g-3">
+              <li class="alert alert-primary m-2 p-1">Maintain the car</li>
+              <li class="alert alert-primary m-2 p-1">
+                More clean for the car
+              </li>
+              <li class="alert alert-primary m-2 p-1">
+                Save time only five minutes
+              </li>
+              <li class="alert alert-primary m-2 p-1">Car rust prevention</li>
+              <li class="alert alert-primary m-2 p-1">
+                Friendly and maintain proof
+              </li>
+              <li class="alert alert-primary m-2 p-1">
+                Ease of payment and use
+              </li>
+              <li class="alert alert-primary m-2 p-1">
+                Laundry at any time 24/7
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <video
+              src="assets/videos/car-wash.mp4"
+              autoplay
+              controls
+              muted
+              class="w-100"
+            ></video>
+          </div>
+        </div>
+        <h2 class="text-center">Technical Data</h2>
+        <div class="table-responsive">
+          <table class="table table-striped shadow fs-5">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Function Descriptions</th>
+                <th scope="col">Brand Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">(2.1.7)</th>
+                <td>Available size for bus (L x W × H)</td>
+                <td>24000 X 2700MM x 4200MM</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.8)</th>
+                <td>Power</td>
+                <td>(KW) 8.86/10.1kw</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.9)</th>
+                <td>Water /Electricity consumption</td>
+                <td>( 250L/BUS0.59kw/BUS )</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.10)</th>
+                <td>Wash speed</td>
+                <td>( 15-20 buses/hour )</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.11)</th>
+                <td>MOTOR</td>
+                <td>ITALY SITI</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.12)</th>
+                <td>Control system</td>
+                <td>JAPAN MITSUBISHI</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.13)</th>
+                <td>Highpressure pump</td>
+                <td>CHINA CNP</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.14)</th>
+                <td>Heat protection and contactor</td>
+                <td>FRANCE schneider</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.15)</th>
+                <td>Photoelectric sensor</td>
+                <td>USA BANNER</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.16)</th>
+                <td>Chemical pump</td>
+                <td>ITALY SEKO</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.17)</th>
+                <td>Magnetic valve</td>
+                <td>TAIWAN AIRTAC</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.18)</th>
+                <td>Operation panel</td>
+                <td>TAIWAN DELTA</td>
+              </tr>
+              <tr>
+                <th scope="row">(2.1.19)</th>
+                <td>Air cylinder</td>
+                <td>TAIWAN AIRTAC</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>Advantages and Functions</h2>
+        <p class="fs-5 fw-medium">
+          1. The frame of Risen gantry pre-wash car washing machine is made of
+          national standard steel and treated with hot-dip galvanizing, which is
+          anti-corrosion and rust-proof, durable and durable.
+        </p>
+        <p class="fs-5 fw-medium">
+          2. Fasteners such as bolts are made of SUS304 stainless steel.
+        </p>
+        <p class="fs-5 fw-medium">
+          3. Because the equipment is in contact with water all the year round,
+          in the wild wind, rain, and ultraviolet rays of the sun。The high
+          quality of the equipment manufacturing process is the key
+        </p>
+        <h2>High pressure water jet part</h2>
+        <p class="fs-5 fw-medium">
+          a. Special stainless steel fan-shaped high pressure nozzle, galvanized
+          pipe, special high pressure rubber pipe with high pressure seal. The
+          above is the key to the performance of the device.
+        </p>
+        <p class="fs-5 fw-medium">
+          B. Special stainless steel fan-shaped high-pressure nozzle - is our
+          company's patented product;
+        </p>
+        <p class="fs-5 fw-medium">
+          c. Special high-pressure rubber tube with high-pressure seal - is a
+          special customized product of our company.
+        </p>
+        <h2>Intelligent system controller</h2>
+        <p class="fs-5 fw-medium">
+          a. The core part of the whole machine control system is the
+          intelligent system controller, which realizes the program control of
+          various functions through the detection of photoelectric sensors and
+          proximity switches.
+        </p>
+        <p class="fs-5 fw-medium">
+          B. In order to facilitate user control, our company has specially set
+          up a small power switch box, which can be installed in the position
+          that users are satisfied with (just lengthen the power cable)
+        </p>
+        <h2>Operation panel</h2>
+        <p class="fs-5 fw-medium">
+          A1 The electrical control system of the whole machine is installed in
+          the electrical cabinet,
+        </p>
+        <p class="fs-5 fw-medium">
+          a2. The water and gas control system is installed in the high-pressure
+          water cleaning box.
+        </p>
+        <p class="fs-5 fw-medium">
+          B1. All controls can be automatically controlled by the control panel
+          on the electrical operation workbench.
+        </p>
+        <p class="fs-5 fw-medium">
+          B2. The operation panel adopts special key switches, which can not
+          only avoid the entry of various impurities such as dust and water
+          droplets, but also prevent blur caused by light irradiation
+        </p>
+      </div>
+    </main>
+  </body>
 </html>

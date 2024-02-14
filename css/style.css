@@ -8,11 +8,12 @@ section {
 }
 
 .logo {
-  width: 48px;
+  width: 5rem;
 }
 
 .lang-flag {
   width: 18px;
+  aspect-ratio: 18/ 12;
 }
 
 /* home section */
@@ -20,7 +21,7 @@ section {
   position: relative;
 }
 
-.carousel-inner .home-text{
+.carousel-inner .home-text {
   position: absolute;
   left: 5%;
   top: 45%;
@@ -65,11 +66,11 @@ h3 {
   width: fit-content;
 }
 /* category section */
-.tab-pane .carousel-item{
+.tab-pane .carousel-item {
   height: 80vh;
 }
 
-.cat-text{
+.cat-text {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
